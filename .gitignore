@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+coverage
+
+# Vite writes these transient config bundles while the dev server runs.
+vite.config.ts.timestamp-*.mjs
+
+# Never commit a token, an export of the library, or a migration dump.
+*.token
+library-export*.json
